@@ -114,7 +114,7 @@ class _resState extends State<res> {
                         fontWeight: FontWeight.bold,
                         color: Colors.blueGrey[700],
                       ),
-                      textAlign: TextAlign.justify,
+                      textAlign: TextAlign.center,
                     ),
                   ))),
           Container(
