@@ -20,7 +20,7 @@ class res extends StatefulWidget {
 
 class _resState extends State<res> {
   final url =
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyBKAvjPSh02rTJjnquJeZjGonUV3Wfhwow";
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR-API-KEY";
 
   final head = {'Content-Type': 'application/json'};
 
