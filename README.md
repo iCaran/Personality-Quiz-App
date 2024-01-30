@@ -1,16 +1,38 @@
-# firstapp
+# Personality Quiz
 
-A new Flutter project.
+My first Flutter project - A simple Personality Test app to learn and explore Flutter.
+
+## Overview 
+
+This app provides a short personality test to assess basic traits. Upon completion, it uses the Gemini API to generate a natural language summary of the results.
+
+## Live Demo
+
+Try it out at https://personality-kuka.web.app/  
+
+## Key Features
+
+- 50 question personality test
+- Gemini API integration to generate personalized assessment summary   
+- Clean UI built with Flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-    
-A few resources to get you started if this is your first Flutter project:
+1. Generate an API key from https://ai.google.dev/
+2. Open lib/res.dart and update the `url` variable with your own key
+3. Run `flutter run` to start the app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Future Improvements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Better UI
+- More robust test with additional questions
+- Save and compare results over time
+- Integrate additional APIs for deeper analysis
+
+## License
+
+Unlicense
+
+---
+
+Inspired by [William Passmore](https://github.com/NerdiOrg/Python-IPIP-BFFM)
