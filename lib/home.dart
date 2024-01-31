@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
                 fontSize: 40,
                 fontWeight: FontWeight.w700,
               ),
+              textAlign: TextAlign.center,
             ),
             Container(
               margin: const EdgeInsets.all(15.0), // Adjust as needed
